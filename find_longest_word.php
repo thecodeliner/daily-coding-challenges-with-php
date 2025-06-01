@@ -1,10 +1,12 @@
 <?php
 
     function findLongestWord($sentence){
-
+        //remove special characters from the sentence
         $replaceChar = str_replace(['', '.', ',', '!', '?',';',':'],'', $sentence);
+        
+        //split the sentence to words
         $words = explode(' ', $replaceChar);
-
+        
         $max = '';
         $longestWord = [];
         foreach ($words as $key => $word){
