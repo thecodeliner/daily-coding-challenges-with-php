@@ -1,7 +1,8 @@
 <?php
 
-	$numbers = [11,25,54,36,78,98,120];
-  
+	$numbers = [11,25,54,36,78,98,120,98];
+
+    function findSecondLargest($numbers) {
     //sort the array in descending order
     arsort($numbers);
     //remove the first element (largest number)
@@ -15,5 +16,8 @@
         }
         
     }
-		echo "Second largest number is: $largest";
+    return $largest;
+
+}
+	echo "The second largest number is: " . findSecondLargest($numbers);
 
