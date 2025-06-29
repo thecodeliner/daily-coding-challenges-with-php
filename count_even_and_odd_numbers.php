@@ -8,12 +8,13 @@ $odd = [];
 foreach ($numbers as $number){
 if($number % 2 == 0){
 	$even[]=$number;
-    $countEven = count($even);
+    
 }elseif($number % 2 == 1){
  		$odd[]=$number;
-        $countOdd = count($odd);
+        
 }
-
+$countEven = count($even);
+$countOdd = count($odd);
 }
 echo "Even Numbers : ". $countEven;
 echo "<br>";
