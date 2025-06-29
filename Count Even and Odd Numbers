@@ -1,0 +1,20 @@
+//Count how many even and odd numbers are in an array.
+// Output: Even = 3, Odd = 3
+
+$numbers = [1, 5, 2, 3, 4, 5, 6,8]; 
+$even = [];
+$odd = [];
+
+foreach ($numbers as $number){
+if($number % 2 == 0){
+	$even[]=$number;
+    $countEven = count($even);
+}elseif($number % 2 == 1){
+ 		$odd[]=$number;
+        $countOdd = count($odd);
+}
+
+}
+echo "Even Numbers : ". $countEven;
+echo "<br>";
+echo "Odd Numbers : ". $countOdd;
