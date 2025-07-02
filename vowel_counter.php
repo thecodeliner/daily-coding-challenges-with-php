@@ -1,7 +1,7 @@
 //Write a PHP program that counts the number of vowels in a given word.
 <?php
-	$vowels = ["u","o","i","e","a"];
-	$word = "dialogue";
+$vowels = ["u","o","i","e","a"];
+$word = "dialogue";
   $splitWords = [];
   $length = strlen($word);
   $result =[];
@@ -53,8 +53,8 @@
 //Another way
 //==============================02==========================
 
-	$vowels = ["u","o","i","e","a"];
-	$word = "dialogue";
+$vowels = ["u","o","i","e","a"];
+$word = "dialogue";
   $length = strlen($word);
   $result =[];
   $count = 0;
@@ -91,8 +91,8 @@
 //==============================03==========================
 
 
-	$vowels = ["u","o","i","e","a"];
-	$word = "dialogue";
+$vowels = ["u","o","i","e","a"];
+$word = "dialogue";
         
     $result =[];
     $count = 0;
