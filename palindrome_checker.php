@@ -2,15 +2,15 @@
 $msg="";
 	$array=[];
     $revArray=[];
-	$run="server";
-    $length = strlen($run);
+	$word="server";
+    $length = strlen($word);
 	for ($i = 0; $i < $length; $i++){
-    	$array[]= $run[$i];
+    	$array[]= $word[$i];
     }
     echo "<br>";
     for ($i = $length-1; $i >=0; $i--){
     	//echo $i;
-        $revArray[]=$run[$i];
+        $revArray[]=$word[$i];
     }
     
     if ($revArray === $array){
